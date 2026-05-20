@@ -4,9 +4,9 @@ This repository contains version-controlled project documentation.
 
 ## Sections
 
-- [Actors](./actors/)
-- [Requirements](./requirements/)
-- [Architecture](./architecture/)
-- [Processes](./processes/)
-- [Sequence diagrams](./sequences/)
-- [User stories](./stories/)
+- [Actors](./actors/README.md)
+- [Requirements](./requirements/README.md)
+- [Architecture](./architecture/README.md)
+- [Processes](./processes/README.md)
+- [Sequence diagrams](./sequences/README.md)
+- [User stories](./stories/README.md)
