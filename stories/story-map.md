@@ -12,7 +12,7 @@ journey
         Sign in: 5: Voter
         View active voting session: 4: Voter
         Cast vote: 5: Voter
-        Submit anonymous vote: 5: Voter
+        Submit vote with selected confidentiality mode: 5: Voter
       section Admin manages active voting
         Add question during voting: 3: Admin
         Control results visibility: 3: Admin
@@ -34,4 +34,4 @@ journey
 | US-006 | Admin | As an admin, I want to inspect results so that I can understand the outcome of a voting session. | FR-202 |
 | US-007 | Voter | As a voter, I want to sign in securely so that only eligible users can vote. | FR-401, FR-402 |
 | US-008 | Voter | As a voter, I want to cast one vote per question in an active session so that my choice is counted correctly. | FR-101 |
-| US-009 | Voter | As a voter, I want my vote to remain anonymous so that admins cannot connect my identity with my choices. | FR-103 |
+| US-009 | Voter | As a voter, I want each question to clearly define whether my vote is confidential or public so that I understand how my choice will be handled. | FR-103 |
