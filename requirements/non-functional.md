@@ -2,12 +2,12 @@
 
 ## Group 1
 
-| ID | Name | Description |
-| --- | --- | --- |
-| NFR-101 | --- | --- |
+| ID      | Name | Description |
+| ------- | ---- | ----------- |
+| NFR-101 | ---  | ---         |
 
 ## Group 2
 
-| ID | Name | Description |
-| --- | --- | --- |
-| NFR-201 | --- | --- |
+| ID      | Name | Description |
+| ------- | ---- | ----------- |
+| NFR-201 | ---  | ---         |
