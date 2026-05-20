@@ -9,8 +9,8 @@ journey
         Configure questions: 4: Admin
         Open voting session: 5: Admin
       section Voter participates
-        Sign in: 5: Voter
-        View active voting session: 4: Voter
+        Open session-specific voting link, QR code, or access code: 5: Voter
+        Authenticate for the voting session: 5: Voter
         Cast vote: 5: Voter
         Submit vote with selected confidentiality mode: 5: Voter
       section Admin manages active voting
@@ -32,6 +32,6 @@ journey
 | US-004 | Admin | As an admin, I want to control result visibility so that voters see results only when appropriate. | FR-203 |
 | US-005 | Admin | As an admin, I want to open, close, and archive voting sessions so that the voting lifecycle is controlled. | FR-204 |
 | US-006 | Admin | As an admin, I want to inspect results so that I can understand the outcome of a voting session. | FR-202 |
-| US-007 | Voter | As a voter, I want to sign in securely so that only eligible users can vote. | FR-401, FR-402 |
+| US-007 | Voter | As a voter, I want to enter a specific voting session through a link, QR code, or access code and then authenticate so that my eligibility is checked for that session. | FR-301, FR-401, FR-402 |
 | US-008 | Voter | As a voter, I want to cast one vote per question in an active session so that my choice is counted correctly. | FR-101 |
 | US-009 | Voter | As a voter, I want each question to clearly define whether my vote is confidential or public so that I understand how my choice will be handled. | FR-103 |
