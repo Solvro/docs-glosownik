@@ -6,7 +6,7 @@
 
         participant Voter
         participant Client
-        participant Auth as Authorization Service
+        participant Auth as Authentication Service
         participant Signer as Blind Signature Server
         participant VoteServer as Voting Server
         participant Database
@@ -17,7 +17,7 @@
 
         Voter->>Client: Start voting process
         Client->>Auth: Authenticate voter
-        Auth-->>Client: Authorization completed
+        Auth-->>Client: Authentication completed
 
         Client->>Client: Generate token m
         Client->>Client: Generate blinding factor r
@@ -28,7 +28,7 @@
         Auth-->>Signer: Voter eligible and not used yet
 
         Signer->>Signer: Sign blinded token with private key
-        Signer->>Auth: Mark authorization as used
+        Signer->>Auth: Mark authentication as used
         Signer-->>Client: Return signed blinded token
 
         Client->>Client: Unblind signed token using r
